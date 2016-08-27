@@ -2,3 +2,23 @@
 
 @import "semantic.less";
 @import "ionicons/css/ionicons.css";
+
+body {
+  background: #008B8B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #008B8B, #00FF00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #008B8B, #00FF00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #008B8B, #00FF00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #008B8B, #00FF00); /* Standard syntax */
+}
+#wrap{
+  height: inherit;
+  > .main-content {
+    height: 80%;
+    > .grid {
+      height: 100%;
+    }
+  }
+}
+.ui.stacked.segments:before, .ui.stacked.segments:after, .ui.stacked.segment:before, .ui.stacked.segment:after {
+  width: 0;
+}
