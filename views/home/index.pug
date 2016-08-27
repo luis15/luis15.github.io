@@ -1,0 +1,15 @@
+extends ../layouts/default.pug
+block content
+  .ui.middle.aligned.center.aligned.grid
+    .column
+      h2.ui.blue.header
+        .content
+          | Bem-vindo
+      form.ui.large.form(action="/form")
+        .ui.stacked.segment
+          .field
+            .ui.left.icon.input
+              input(type='number',min='1' name='ra', placeholder='Insira seu RA')
+          .field
+            input.ui.fluid.large.blue.submit.button(type='submit',value='Próximo')
+        .ui.error.message
