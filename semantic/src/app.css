@@ -57639,7 +57639,6 @@ h2 {
 .subtitle {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 100;
-  letter-spacing: -0.15em;
 }
 @media (max-width: 770px) {
   .subtitle {
