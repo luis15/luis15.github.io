@@ -41,5 +41,8 @@
 	"setCustomValidity('Please insert a phone')": "setCustomValidity('Please insert a phone')",
 	"Message": "Message",
 	"setCustomValidity('Please type your message')": "setCustomValidity('Please type your message')",
-	"Send": "Send"
+	"Send": "Send",
+	"A new bank for a new world.": "A new bank for a new world.",
+	"BdeB - A new bank for a new world": "BdeB - A new bank for a new world",
+	"A new bank for a new world": "A new bank for a new world"
 }
