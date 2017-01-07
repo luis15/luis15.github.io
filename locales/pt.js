@@ -28,5 +28,18 @@
 	"Legal": "Legal",
 	"Terms of service": "Termos de serviço",
 	"Privacy policy": "Política de privacidade",
-	"Our people that changes the world": "Nossas pessoas que mudam o mundo"
+	"Our people that changes the world": "Nossas pessoas que mudam o mundo",
+	"Branding": "Marca",
+	"Colors": "Colors",
+	"Our icon is a representation of our idea. Easy, Fast and Simple.": "Nosso icóne é uma representação da nossa idéia. Rápido, fácil e simples",
+	"BdeB Blue - #0066AA": "Azul BdeB - #0066AA",
+	"BdeB Green - #33CC33": "Verde BdeB - #33CC33",
+	"BdeB Background - #BBBBBB": "BdeB Background - #BBBBBB",
+	"WhiteSmoke - #EEEEEE": "WhiteSmoke - #EEEEEE",
+	"BdeB Background - #EEEEEE": "BdeB Background - #EEEEEE",
+	"BdeB Clear fonts - #FFFFFF": "BdeB Fontes Claras - #FFFFFF",
+	"A new bank for a new world.": "Um novo banco para um novo mundo.",
+	"A new bank for a new world": "Um novo banco para um novo mundo",
+	"BdeB - A new bank for a new world": "BdeB - Um novo banco para um novo mundo",
+	"BdeB Dark fonts - #333333": "BdeB Fontes Escuras - #333333"
 }

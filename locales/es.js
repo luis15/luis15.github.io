@@ -28,5 +28,16 @@
 	"Legal": "Legal",
 	"Terms of service": "Condiciones del servicio",
 	"Privacy policy": "Política de privacidad",
-	"Our people that changes the world": "Nuestras personas que cambian el mundo"
+	"Our people that changes the world": "Nuestras personas que cambian el mundo",
+	"A new bank for a new world.": "Un nuevo banco para un nuevo mundo.",
+	"BdeB - A new bank for a new world": "BdeB - Un nuevo banco para un nuevo mundo",
+	"A new bank for a new world": "Un nuevo banco para un nuevo mundo",
+	"Branding": "Marca",
+	"Our icon is a representation of our idea. Easy, Fast and Simple.": "Nuestro icono es una representación de nuestra idea. Fácil, rápido y simple.",
+	"Colors": "Colores",
+	"BdeB Blue - #0066AA": "BdeB Azul - #0066AA",
+	"BdeB Green - #33CC33": "BdeB Verde - #33CC33",
+	"BdeB Background - #EEEEEE": "BdeB Background - #EEEEEE",
+	"BdeB Clear fonts - #FFFFFF": "BdeB Fuentes Claras - #FFFFFF",
+	"BdeB Dark fonts - #333333": "BdeB Funtes Oscuras - #333333"
 }
