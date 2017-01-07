@@ -25,5 +25,8 @@
 	"Privacy policy": "Privacy policy",
 	"English": "English",
 	"Español": "Español",
-	"Português": "Português"
+	"Português": "Português",
+	"Language": "Language",
+	"Our people that changes the world": "Our people that changes the world",
+	"Meet our team": "Meet our team"
 }

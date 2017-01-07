@@ -4,63 +4,33 @@
 				.col-lg-10.col-md-12
 					.row
 						.col-xs-12.col-sm-6.col-md-3
-							h4= __("Product")
+							h4= __("Language")
 							ul
 								li
-									a(href="/features")
-										p= __("Know more")
+									a(href="?lang=en")=__("English")
 								li
-									a(href="/download")
-										p= __("Download")
+									a(href="?lang=es")=__("Español")
 								li
-									a(href="/love")
-										p= __("Wall of love")
-								li
-									a(href="/pricing")
-										p= __("Pricing")
-								li
-									a(href="/contact")
-										p= __("Indicate")
+									a(href="?lang=pt")=__("Português")
 						.col-xs-12.col-sm-6.col-md-3
 							h4= __("Company")
 							ul
 								li
-									a(href="/about")
-										p= __("About us")
+									a(href="/about")= __("About us")
 								li
-									a(href="/team")
-										p= __("Team")
+									a(href="/team")= __("Team")
 								li
-									a(href="http://blog.classapp.com.br")
-										p= __("Blog")
-								li
-									a(href="http://press.classapp.com.br")
-										p= __("Press")
-								li
-									a(href="/brand")
-										p= __("Brand")
+									a(href="/brand")= __("Brand")
 						.col-xs-12.col-sm-6.col-md-3
 							h4= __("Support")
 							ul
 								li
-									a(href="https://classapp.zendesk.com")
-										p= __("Help center")
-								li
-									a(href="/contact")
-										p= __("Contact")
-								li
-									a(href="	http://classapp.com.br/developer/")
-										p= __("API")
+									a(href="/contact")= __("Contact")
+
 						.col-xs-12.col-sm-6.col-md-3
 							h4= __("Legal")
 							ul
 								li
-									a(href="/terms")
-										p= __("Terms of service")
+									a(href="/terms")= __("Terms of service")
 								li
-									a(href="/privacy")
-										p= __("Privacy policy")
-					.col-md-12.text-center
-						a(href="?lang=en")=__("English")
-						a(href="?lang=es")=__("Español")
-						a(href="?lang=pt")=__("Português")
+									a(href="/privacy")= __("Privacy policy")
