@@ -22,15 +22,14 @@ var env = process.env.NODE_ENV || 'development';
  */
 module.exports = function (app, passport) {
 
-  if (process.env.NODE_ENV === 'production') {
+/*  if (process.env.NODE_ENV === 'production') {
     app.use(function(req, res, next) {
       if ((!req.secure) && (req.get('X-Forwarded-Proto') !== 'https')) {
         return res.redirect(301, 'https://' + req.hostname + req.url);
       }
-
       next();
     });
-  }
+  }*/
 
   // Compression middleware (should be placed before express.static)
   app.use(compression({
