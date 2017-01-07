@@ -1,0 +1,28 @@
+extends ../layouts/default
+block main
+	.container
+		.row.text-center
+			h1=__("Branding")
+			h4=__("Our icon is a representation of our idea. Easy, Fast and Simple.")
+		.row.backsolid
+			.col-md-6
+				img(src="/img/logo_black.png")
+			.col-md-6
+				img(src="/img/logo_black_inverted.png")
+		.row.backsolid
+			.col-md-6
+				img(src="/img/logo_blue.png")
+			.col-md-6
+				img(src="/img/logo_blue_inverted.png")
+		.row.backsolid
+			.col-md-6
+				img(src="/img/logo_green.png")
+			.col-md-6
+				img(src="/img/logo_green_inverted.png")
+		.row
+			h2=__("Colors")
+			p.blue=__("BdeB Blue - #0066AA")
+			p.green=__("BdeB Green - #33CC33")
+			p.background=__("BdeB Background - #BBBBBB")
+			p.white=__("BdeB Clear fonts - #EEEEEE")
+			p.dark=__("BdeB Dark fonts - #333333")
