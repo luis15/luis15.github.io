@@ -1,0 +1,58 @@
+extends ../layouts/default.pug
+block content
+  .container.text-center
+    h2=__("Contact")
+    p=__("If you already a user, please make")
+      a(href="")=__(" login")
+      =__(" before contact us")
+
+    form(action="/confirm", method="POST")
+      .col-md-6.col-md-offset-3.col-xs-12
+        input(type='text',name="name", placeholder=__('Name'), oninvalid=__("setCustomValidity('Please insert your name')"), oninput="setCustomValidity('')",required)
+        input(type='text',name="organization", oninvalid=__("setCustomValidity('Please insert your organization')"), oninput="setCustomValidity('')", placeholder=__('Organization'), required)
+        .col-md-3
+          p=__('Job')
+        .col-md-9
+          select#job(name='job',oninvalid=__("setCustomValidity('Please select your job')"), oninput="setCustomValidity('')", required)
+            option(value='')
+            option(value=__("Direction"))=__("Direction")
+            option(value=__('Marketing/Comunication'))=__('Marketing/Comunication')
+            option(value=__('Coordination'))=__('Coordination')
+            option(value=__('Others'))=__('Others')
+        input(type='email', pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$", oninvalid=__("setCustomValidity('Please insert a email in the format mail@mail.com')"), oninput="setCustomValidity('')",name ='email' , placeholder=__("Email"), required)
+        .col-xs-3
+          include ../includes/country_list.pug
+        .col-xs-9
+          input(type='tel', onkeypress='return SomenteNumero(event)', placeholder=__('Cell Phone'), oninvalid=__("setCustomValidity('Please insert a phone')"), oninput="setCustomValidity('')",name="phone", required)
+        .col-md-3
+          p=__('Students')
+        .col-md-9
+          select#members(name='members', oninvalid=__("setCustomValidity('Please select the number of students in your school')"), oninput="setCustomValidity('')", required)
+            option(value='')
+            option(value='50')=__("0 to 50")
+            option(value='100')=__("51 to 100")
+            option(value='250')=__("101 to 250")
+            option(value='500')=__("251 to 500")
+            option(value='750')=__("501 to 750")
+            option(value='1000')=__("751 to 1000")
+            option(value='1500')=__("1001 to 1500")
+            option(value='2000')=__("1501 to 2000")
+            option(value='2500')=__("2001 to 2500")
+            option(value='3000')=__("2501 to 3000")
+            option(value='4000')=__("3001 to 4000")
+            option(value='4001')=__("Up to 4000")
+
+        textarea#comment(rows='3', cols='40', name='comment', placeholder=__('Message'), required,oninvalid=__("setCustomValidity('Please type your message')"), oninput="setCustomValidity('')")
+
+        input(type="submit", value=__("Send"))
+
+
+  script.
+    function SomenteNumero(e){
+    var tecla=(window.event)?event.keyCode:e.which;
+    if((tecla>47 && tecla<58)) return true;
+    else{
+    if (tecla==13 || tecla==8 || tecla==0) return true;
+    else  return false;
+    }
+    }
