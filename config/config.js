@@ -13,7 +13,7 @@ var defaults = {
   pkg: pkg,
 
   baseUrl: 'https://bancodebits.com.br',
-  shortUrl: 'http://bdeb.com.br',
+  shortUrl: 'https://bdeb.com.br',
 
   root: path.join(__dirname, '..'),
   locales: ['en','pt','es']
