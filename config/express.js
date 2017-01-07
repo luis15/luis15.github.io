@@ -29,7 +29,7 @@ module.exports = function (app, passport) {
       }
       next();
     });
-  }*/
+  }*/  //TODO: configurar o SSL
 
   // Compression middleware (should be placed before express.static)
   app.use(compression({
