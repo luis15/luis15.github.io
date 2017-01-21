@@ -1,0 +1,39 @@
+extends ../layouts/default.pug
+block content
+	.container
+		.main.logo.text-center
+			img(src="img/logo_blue.png", alt=__("BdeB - A new bank for a new world"), width = '40%')
+			h1=__("A new bank for a new world")
+
+		.row.item
+			.col-md-9
+				h2=__("Cheap")
+				h3=__("Why pay taxes to move your money?")
+				p=__("With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.")
+				a(href='contact')=__("Talk with us and see how easy it is!")
+			.col-md-3.text-center
+				img.home(src='/img/icons/coin.svg')
+		.row.item
+			.col-md-9
+				h2=__("Universal")
+				h3=__("Use your bitcoins anywhere!")
+				p=__("Bitcoin is a global cash, accept in thousands of places around the world. And it is the best, without abusive values like your credit card. ")
+				a(href='contact')=__("Talk with us and see how easy it is!")
+			.col-md-3.text-center
+				img.home(src='/img/icons/globe.svg')
+		.row.item
+			.col-md-9
+				h2=__("Safety")
+				h3=__("Every bitcoin is encrypted")
+				p=__("All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ")
+				a(href='contact')=__("Talk with us and see how easy it is!")
+			.col-md-3.text-center
+				img.home(src='/img/icons/lock.svg')
+		.row.item
+			.col-md-9
+				h2=__("Intuitive")
+				h3=__("It is simple to Use")
+				p=__("Use bitcoins is so easy as pay with money. And with BdeB it is easier, just scan your BitCode and your transactions are done!")
+				a(href='contact')=__("Talk with us and see how easy it is!")
+			.col-md-3.text-center
+				img.home(src='/img/icons/bitcoin.svg')

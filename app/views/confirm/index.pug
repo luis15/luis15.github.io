@@ -1,0 +1,7 @@
+extends ../layouts/default.pug
+block content
+	.container.text-center
+		h2=__("Your data has been received with success")
+		p=__("To back to home, click")
+			a(href="/")=__(" here")
+		img(src="/img/envio_certo.png", alt="Envio certo",style="max-width: 30%;")

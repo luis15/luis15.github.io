@@ -1,0 +1,36 @@
+.footer
+	.row.text-center
+		.col-md-12
+			.row
+				.col-xs-12.col-sm-6.col-md-3
+					h4= __("Language")
+					ul
+						li
+							a(href="?lang=en")=__("English")
+						li
+							a(href="?lang=es")=__("Español")
+						li
+							a(href="?lang=pt")=__("Português")
+				.col-xs-12.col-sm-6.col-md-3
+					h4= __("Company")
+					ul
+						li
+							a(href="/about")= __("About us")
+						li
+							a(href="/team")= __("Team")
+						li
+							a(href="/brand")= __("Brand")
+				.col-xs-12.col-sm-6.col-md-3
+					h4= __("Support")
+					ul
+						li
+							a(href="/contact")= __("Contact")
+
+				.col-xs-12.col-sm-6.col-md-3
+					h4= __("Legal")
+					ul
+						li
+							a(href="/terms")= __("Terms of service")
+						li
+							a(href="/privacy")= __("Privacy policy")
+p.text-center 2017 | Banco de Bits
