@@ -68,15 +68,6 @@ body {
   background-color: @blue;
   color:@white;
 }
-.home{
-  padding: 15% 0;
-  h1, h3 {color: white;}
-  @media (max-width:770px) {
-    background-image: url("/img/M1Back.jpg");
-    background-position: center;
-    .col-md-12{padding: 0;}
-  }
-}
 
 .pcscreen {width: 200px;}
 .phonescreen {display: none;}
@@ -278,7 +269,11 @@ img {
   max-height: 100%;
 }
 img.home{
-  height: 200px;
+  height: 100px;
+}
+.col-md-6{
+  background-color: white;
+  border: 5px solid @background;
 }
 a.btn{
   background-color: white;
