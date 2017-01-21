@@ -49,5 +49,9 @@
 	"Success": "Success",
 	"Your data has been received with success": "Your data has been received with success",
 	"To back to home, click": "To back to home, click",
-	" here": " here"
+	" here": " here",
+	"Cheap": "Cheap",
+	"Why pay taxes to move your money?": "Why pay taxes to move your money?",
+	"With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.": "With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.",
+	"Talk with us and see how easy it is!": "Talk with us and see how easy it is!"
 }

@@ -41,5 +41,18 @@
 	"A new bank for a new world.": "Um novo banco para um novo mundo.",
 	"A new bank for a new world": "Um novo banco para um novo mundo",
 	"BdeB - A new bank for a new world": "BdeB - Um novo banco para um novo mundo",
-	"BdeB Dark fonts - #333333": "BdeB Fontes Escuras - #333333"
+	"BdeB Dark fonts - #333333": "BdeB Fontes Escuras - #333333",
+	"Cheap": "Cheap",
+	"Why pay taxes to move your money?": "Why pay taxes to move your money?",
+	"With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.": "With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.",
+	"Talk with us and see how easy it is!": "Talk with us and see how easy it is!",
+	"Universal": "Universal",
+	"Use your bitcoins anywhere!": "Use your bitcoins anywhere!",
+	"Bitcoin is a global cash, accept in thousands of places around the world. And it is the best, without abusive values like your credit card. ": "Bitcoin is a global cash, accept in thousands of places around the world. And it is the best, without abusive values like your credit card. ",
+	"Safety": "Safety",
+	"Every bitcoin is encrypted": "Every bitcoin is encrypted",
+	"All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ": "All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ",
+	"Intuitive": "Intuitive",
+	"It is simple to Use": "It is simple to Use",
+	"Use bitcoins is so easy as pay with money. And with BdeB it is easier, just scan your BitCode and your transactions are done!": "Use bitcoins is so easy as pay with money. And with BdeB it is easier, just scan your BitCode and your transactions are done!"
 }
