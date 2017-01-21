@@ -44,5 +44,10 @@
 	"Send": "Send",
 	"A new bank for a new world.": "A new bank for a new world.",
 	"BdeB - A new bank for a new world": "BdeB - A new bank for a new world",
-	"A new bank for a new world": "A new bank for a new world"
+	"A new bank for a new world": "A new bank for a new world",
+	"BdeB have received your data": "BdeB have received your data",
+	"Success": "Success",
+	"Your data has been received with success": "Your data has been received with success",
+	"To back to home, click": "To back to home, click",
+	" here": " here"
 }

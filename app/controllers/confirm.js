@@ -20,5 +20,9 @@ exports.index = function (req, res) {
   mensagem += '<p>'+String(req.body.comment)+'</p>';
 
   email.enviarEmailContato(destinatario, assunto, mensagem);
-
-  }
+  res.render('confirm/index', {
+    description : res.__('BdeB have received your data'),
+    title : res.__('Success'),
+    page:'confirm'
+  });
+}
