@@ -1,7 +1,4 @@
 extends ../layouts/default.pug
 block main
 	.container
-		if(req.getLocale()=='pt')
-			include:markdown terms.md
-		else
-			include:markdown enterms.md
+		include:markdown terms.md

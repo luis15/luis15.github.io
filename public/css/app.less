@@ -68,16 +68,16 @@ body {
   background-color: @blue;
   color:@white;
 }
-.home{
-  padding: 15% 0;
-  h1, h3 {color: white;}
-  @media (max-width:770px) {
-    background-image: url("/img/M1Back.jpg");
-    background-position: center;
-    .col-md-12{padding: 0;}
-  }
+.homebrand {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 800;
+  font-size: 10em;
+  letter-spacing: -0.15em;
+  padding: 10px;
+  transition: 0.5s;
+  color: @blue;
+  background-color: @white;
 }
-
 .pcscreen {width: 200px;}
 .phonescreen {display: none;}
 @media (max-width:770px) {
@@ -87,19 +87,24 @@ body {
     margin-top: -7px;
   }
 }
-
+img.team {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  height: 200px;
+}
+img.logo{
+  width:100%;
+  border: 0;
+}
+.col-md-6.logo{
+  border: 0;
+}
 .team {
   padding-top: 4%;
-  img {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border-radius: 50%;
-  }
-  h3{color:@white;}
-  p{
-    color:@white;
-    background-color: @green
-  }
+
+  h3,p{color:@white;}
+
   .col-md-6 {
     background-color: @blue;
     border: 10px solid;
@@ -278,7 +283,11 @@ img {
   max-height: 100%;
 }
 img.home{
-  height: 200px;
+  height: 100px;
+}
+.col-md-6{
+  background-color: white;
+  border: 5px solid @background;
 }
 a.btn{
   background-color: white;

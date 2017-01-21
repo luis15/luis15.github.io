@@ -1,7 +1,4 @@
 extends ../layouts/default.pug
 block main
 	.container
-		if(req.getLocale()=='pt')
-			include:markdown privacy.md
-		else
-			include:markdown enprivacy.md
+		include:markdown privacy.md
