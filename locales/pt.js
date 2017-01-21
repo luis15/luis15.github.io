@@ -51,7 +51,7 @@
 	"Bitcoin is a global cash, accept in thousands of places around the world. And it is the best, without abusive values like your credit card. ": "Bitcoin é uma moeda global, aceita em milhares de lugares ao redor do mundo. E o melhor, sem as taxas abusivas de seu cartão de crédito. ",
 	"Safety": "Seguro",
 	"Every bitcoin is encrypted": "Todo bitcoin é criptografado",
-	"All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ": "Todas as operações envolvendo bitcoins são encriptada e sua segurana é garantida por uma comunidade internacional de desenvolvedores de aplicaçõs. ",
+	"All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ": "Todas as operações envolvendo bitcoins são encriptada e sua segurança é garantida por uma comunidade internacional de desenvolvedores de aplicações. ",
 	"Intuitive": "Intuitivo",
 	"It is simple to Use": "É fácil de usar",
 	"Use bitcoins is so easy as pay with money. And with BdeB it is easier, just scan your BitCode and your transactions are done!": "Usar bitcoins e tão fácil quanto pagar com dinheiro. E com o BdeB é mais fácil ainda, apenas escaneie o BitCode e suas transações serão concluídas!",

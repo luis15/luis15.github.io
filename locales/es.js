@@ -39,5 +39,22 @@
 	"BdeB Green - #33CC33": "BdeB Verde - #33CC33",
 	"BdeB Background - #EEEEEE": "BdeB Background - #EEEEEE",
 	"BdeB Clear fonts - #FFFFFF": "BdeB Fuentes Claras - #FFFFFF",
-	"BdeB Dark fonts - #333333": "BdeB Funtes Oscuras - #333333"
+	"BdeB Dark fonts - #333333": "BdeB Funtes Oscuras - #333333",
+	"Cheap": "Barato",
+	"Why pay taxes to move your money?": "¿Por qué pagar tasas de usar su dinero?",
+	"With BdeB you pay your accounts, check your balance and manage your finance. Without abusive taxes and with no burocracy.": "Con BdeB usted paga sus cuentas, ver su saldo y administra sus finanzas. Sin gastos abusivos y sin molestias.",
+	"Talk with us and see how cheap it is!": "¡Contacta con nosotros y mire com és barato!",
+	"Universal": "Universal",
+	"Use your bitcoins anywhere!": "¡Use sus bitcoins en cualquier lugar!",
+	"Bitcoin is a global cash, accept in thousands of places around the world. And it is the best, without abusive values like your credit card. ": "Bitcoin es una moneda global, aceptada en millones de lugares de todo el mundo. Y lo mejor, sin las tasas abusivas de su tarjeta de crédito. ",
+	"Talk with us and see how universal it is!": "¡Contacta con nosotros y mire com és universal!",
+	"Safety": "Seguro",
+	"Every bitcoin is encrypted": "Todo bitcoin está cifrado",
+	"All operations involving bitcoins are encrypted and your security is guaranteed by an international community of application developers. ": "Todas las operaciones que implican bitcoins son encriptados y su seguridad está garantizada por una comunidad internacional de programadores. ",
+	"Talk with us and see how safety it is!": "¡Contacta con nosotros y mire com és seguro!",
+	"Intuitive": "Intuitive",
+	"It is simple to Use": "Es fácil de usar",
+	"Use bitcoins is so easy as pay with money. And with BdeB it is easier, just scan your BitCode and your transactions are done!": "Usar bitcoins y tan fácil como pagar con dinero en efectivo. Y con BdeB es más fácil aún, sólo escanear el BitCode y se completarán sus transacciones.",
+	"Talk with us and see how intuitive it is!": "¡Contacta con nosotros y mire com és seguro!",
+	"Got interested. Talk with us now!": "Tiene interés.¡Contacta con nosotros ahora!"
 }
