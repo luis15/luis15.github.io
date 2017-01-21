@@ -64,5 +64,6 @@
 	"Terms of use": "Terms of use",
 	"Privacy": "Privacy",
 	"See how we protected your privacy": "See how we protected your privacy",
-	"The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments.": "The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments."
+	"The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments.": "The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments.",
+	"Our people that changes the world.": "Our people that changes the world."
 }
