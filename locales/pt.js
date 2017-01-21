@@ -2,6 +2,9 @@
 	"The bank that see opportunity in new ways.": "O banco que vê oportunidades de um novo jeito.",
 	"Contact us": "Fale conosco",
 	"Bitcoin": "Bitcoin",
+	"Your data has been sent with success": "Dados enviados com sucesso",
+	"To back to home, click": "Para voltar a home, clique",
+	"here": "aquí",
 	"Contact": "Contato",
 	"Name": "Nome",
 	"setCustomValidity('Please insert your name')": "setCustomValidity('Por favor, insira seu nome')",
@@ -65,5 +68,8 @@
 	"Privacy": "Privacy",
 	"See how we protected your privacy": "See how we protected your privacy",
 	"The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments.": "The BdeB is a brazilian company, that belives everybody can have opportunity by the new ways of payments.",
-	"Our people that changes the world.": "Our people that changes the world."
+	"Our people that changes the world.": "Our people that changes the world.",
+	"BdeB have received your data": "BdeB have received your data",
+	"Success": "Success",
+	" here": " here"
 }
