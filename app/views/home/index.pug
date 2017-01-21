@@ -1,5 +1,15 @@
 extends ../layouts/default.pug
 block content
-	.main.logo.text-center
-		img(src="img/logo_blue.png", alt=__("BdeB - A new bank for a new world"), width = '40%')
-		h1=__("A new bank for a new world")
+	.container
+		.main.logo.text-center
+			img(src="img/logo_blue.png", alt=__("BdeB - A new bank for a new world"), width = '40%')
+			h1=__("A new bank for a new world")
+
+		.row.item
+			.col-md-9
+				h2 Barato
+				h3 Para que pagar taxas para movimentar um dinheiro que é seu?
+				p Com o BdeB você paga suas contas, consulta seu saldo e gerencia suas finanças. Sem juros abusivos e sem burocracias.
+				a(href='contact') Fale conosco e veja como é fácil !
+			.col-md-3.text-center
+				img(src='/img/icons/coin.svg',style='max-width:100%; width:100%;')
