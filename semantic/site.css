@@ -157,7 +157,9 @@ input::selection {
   color: rgba(0, 0, 0, 0.87);
 }
 
-
+.ui.inverted.vertical.center.aligned.segment.header{
+  background-image: url('../img/back.jpg');
+}
 /*******************************
         Global Overrides
 *******************************/
@@ -167,4 +169,3 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
-
