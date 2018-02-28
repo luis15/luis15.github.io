@@ -319,7 +319,7 @@ input::selection {
 }
 
 .ui.vertical.center.aligned.segment.header{
- height : 100vh;
+ min-height : 100vh;
  padding: 5%;
 }
 img.logo{
